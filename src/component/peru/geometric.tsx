@@ -229,7 +229,6 @@ export default function HeroGeometric({
               comentario VENEZUELA de Ibai y apóyalo con un like. ¡Mostremos
               nuestra riqueza y sabor al mundo!
             </p>
-     
           </motion.div>
           <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
             {buttons.map((btn) => (
