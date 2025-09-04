@@ -101,32 +101,32 @@ export default function HeroGeometric({
   const buttons = [
     {
       name: "YouTube",
-      href: "https://youtube.com/shorts/wq26EEOtiBw?si=VNwTC73_mu_gyax3",
+      href: "https://youtube.com/shorts/7iYviaiLAAE?si=ZJqw2ELjoJo1O3s3",
       icon: <FaYoutube size={28} />,
       gradient: "bg-[radial-gradient(circle_at_top,_#FF0000,_#C60000)]",
-      disabled: true,
+      disabled: false,
     },
     {
       name: "TikTok",
-      href: "https://www.tiktok.com/",
+      href: "https://www.tiktok.com/@ibaillanos/video/7546278073600150806?is_from_webapp=1&sender_device=pc&web_id=7390855316623508997",
       icon: <FaTiktok size={28} />,
       gradient: "bg-[radial-gradient(circle_at_center,_#1c1c1c,_#EE1D52)]",
-      disabled: true,
+      disabled: false,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/reel/DOMBAn5jLMA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       icon: <FaInstagram size={28} />,
       gradient:
         "bg-[radial-gradient(circle_at_top,_#F58529,_#DD2A7B,_#8134AF)]",
-      disabled: true,
+      disabled: false,
     },
     {
       name: "Facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/share/r/1BVgcALn9A/",
       icon: <FaFacebook size={28} />,
       gradient: "bg-[radial-gradient(circle_at_top,_#1877F2,_#0F52BA)]",
-      disabled: true,
+      disabled: false,
     },
   ];
 
@@ -229,9 +229,7 @@ export default function HeroGeometric({
               comentario VENEZUELA de Ibai y apóyalo con un like. ¡Mostremos
               nuestra riqueza y sabor al mundo!
             </p>
-            <p className="text-blue-600 ">
-              Links no disponibles - próximamente
-            </p>
+     
           </motion.div>
           <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
             {buttons.map((btn) => (
